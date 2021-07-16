@@ -23,8 +23,12 @@ If you work on a CPU :
 `pip install tensorflow==1.15`     
 
 ## Go on your virtual environnement on a new shell :   
+`cd home/jlc/Bureau/tod_tf1`
 `tf1`  
 Open the notebook *Retrain SSD mobilnet for object detection.ipynb* with jupyter notebook :   
 `jupyter notebook`  
 A web page open, and you have to open the *Retrain SSD mobilnet for object detection.ipynb* notebook.  
 For now follow this notebook.   
+
+Pour télécharger pycoral : 
+cd /home/jlc/Bureau/tod_tf1&& git clone --recurse-submodules https://github.com/google-coral/pycoral
