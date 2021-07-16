@@ -8,4 +8,4 @@ conda activate tf1
 
 ! pip uninstall tensorflow -y  
 ! pip install tensorflow-gpu==1.15  
-# pip install tensorflow==1.15 # for a CPU   
+! pip install tensorflow==1.15 # for a CPU   
