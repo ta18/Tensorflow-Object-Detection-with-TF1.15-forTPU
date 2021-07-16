@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>image20.png</filename>
+	<path>/home/thea/tod_tf2/images/form_detection/test/image20.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cube</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>39</ymin>
+			<xmax>191</xmax>
+			<ymax>183</ymax>
+		</bndbox>
+	</object>
+</annotation>

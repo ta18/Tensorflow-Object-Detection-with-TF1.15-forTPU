@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Data</folder>
+	<filename>resized108.png</filename>
+	<path>/home/alice/stage/Data/resized108.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>311</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Rock</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>255</xmin>
+			<ymin>81</ymin>
+			<xmax>485</xmax>
+			<ymax>263</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,6 @@
+filename,width,height,class,xmin,ymin,xmax,ymax
+resized195.png,640,311,Scissors,199,72,500,243
+resized197.png,640,311,Paper,134,65,457,246
+resized196.png,640,311,Rock,267,52,476,226
+resized199.png,640,311,Paper,89,24,463,298
+resized198.png,640,311,Scissors,65,36,443,221

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Data</folder>
+	<filename>resized092.png</filename>
+	<path>/home/alice/stage/Data/resized092.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>311</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Scissors</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>231</xmin>
+			<ymin>76</ymin>
+			<xmax>529</xmax>
+			<ymax>240</ymax>
+		</bndbox>
+	</object>
+</annotation>
