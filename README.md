@@ -3,7 +3,7 @@ TensorFlow training scripts to perform transfer-learning on a quantization-aware
 
 ## Clone the repository :
 In an other shell dowload the repository where you want (but you have to keep this path for after):
-`git clone https://github.com/ta18/Tensorflow-Object-Detection-with-TF1.15-forTPU`
+`git clone https://github.com/ta18/tod_tf1`
 
 And create the PYTHON PATH :   
 `nano ~/.bashrc`  
