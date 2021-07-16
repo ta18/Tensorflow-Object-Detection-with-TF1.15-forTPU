@@ -2,7 +2,7 @@
 TensorFlow training scripts to perform transfer-learning on a quantization-aware object detection model and then convert it for compatibility with the Edge TPU. Specifically, this tutorial shows you how to retrain a MobileNet V1 SSD model with your own dataset, using TensorFlow r1.15.
 
 ## Clone the repository :
-In an other shell dowload the repository where you want (but you have to keep this path for after):
+In an other shell dowload the repository where you want (but you have to keep this path for after):   
 `git clone https://github.com/ta18/tod_tf1`
 
 And create the PYTHON PATH :   
