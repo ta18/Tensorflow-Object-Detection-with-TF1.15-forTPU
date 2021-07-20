@@ -49,5 +49,3 @@ Open the notebook *Retrain SSD mobilnet for object detection.ipynb* with jupyter
 A web page open, and you have to open the *Retrain SSD mobilnet for object detection.ipynb* notebook.  
 For now follow this notebook.   
 
-Pour télécharger pycoral : 
-cd /home/jlc/Bureau/tod_tf1&& git clone --recurse-submodules https://github.com/google-coral/pycoral
