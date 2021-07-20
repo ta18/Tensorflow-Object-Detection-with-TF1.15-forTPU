@@ -24,9 +24,9 @@ You have to change the TOD_ROOT with your own path (it's the place that you have
 ## 2. Create the virtual environnement :   
 You have to create a virtual environnement with python 3.6 :
 `conda create -n tf1 python=3.6`  
-When the environnement it's create, enter in : 
-`conda activate tf1`  or just `tf1` thanks to tge PYTHON PATH
-Then, install Tensorflow 1.15 :   
+When the environnement it's create, enter in :    
+`conda activate tf1`  or just `tf1` thanks to tge PYTHON PATH    
+Then, install Tensorflow 1.15 :     
 `pip uninstall tensorflow -y` 
 `pip install tensorflow-gpu==1.15` 
 If you work on a CPU :   
