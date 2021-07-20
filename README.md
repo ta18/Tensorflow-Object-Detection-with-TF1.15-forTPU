@@ -2,6 +2,9 @@
 [![Python 3.6](https://img.shields.io/badge/Python-3.6-3776AB)](https://www.python.org/downloads/release/python-360/)
 
 # Tensorflow-Object-Detection-with-TF1.15-forTPU
+
+  ![objectDetection](imageDetection.png)     
+
 TensorFlow training scripts to perform transfer-learning on a quantization-aware object detection model and then convert it for compatibility with the Edge TPU. Specifically, this tutorial shows you how to retrain a MobileNet V1 SSD model with your own dataset, using TensorFlow r1.15.
 
 ## HardWare specifications 
@@ -46,5 +49,5 @@ Open the notebook *Retrain SSD mobilnet for object detection.ipynb* with jupyter
 A web page open, and you have to open the *Retrain SSD mobilnet for object detection.ipynb* notebook.  
 For now follow this notebook.   
 
-Pour télécharger pycoral : 
-cd /home/jlc/Bureau/tod_tf1&& git clone --recurse-submodules https://github.com/google-coral/pycoral
+Training notebook : https://github.com/ta18/tod_tf1/blob/main/Retrain%20SSD%20mobilnet%20for%20object%20detection.ipynb    
+Use the training network notebook : https://github.com/ta18/tictactoe2021/blob/main/notebooks/test_formDetection_tf1.ipynb   
