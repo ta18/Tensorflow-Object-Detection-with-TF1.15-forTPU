@@ -18,8 +18,8 @@ Add this line in the end :
 `export TOD_ROOT="/home/jlc/tod_tf1"     
 export PYTHONPATH=$TOD_ROOT/models:$TOD_ROOT/models/research:$TOD_ROOT/models/research/slim:$PYTHONPATH  
 alias tf1="conda activate tf1"`  
-You have to change the TOD_ROOT with your own path (it's the place that you have clone the repository) and source your the basrc : 
-`source ./bashrc`
+You have to change the TOD_ROOT with your own path (it's the place that you have clone the repository) and source your the basrc :    
+`source ~/.bashrc`
 
 ## 2. Create the virtual environnement :   
 You have to create a virtual environnement with python 3.6 :
