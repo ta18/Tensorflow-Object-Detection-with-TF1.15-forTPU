@@ -49,3 +49,5 @@ Open the notebook *Retrain SSD mobilnet for object detection.ipynb* with jupyter
 A web page open, and you have to open the *Retrain SSD mobilnet for object detection.ipynb* notebook.  
 For now follow this notebook.   
 
+Training notebook : https://github.com/ta18/tod_tf1/blob/main/Retrain%20SSD%20mobilnet%20for%20object%20detection.ipynb    
+Use the training network notebook : https://github.com/ta18/tictactoe2021/blob/main/notebooks/test_formDetection_tf1.ipynb   
