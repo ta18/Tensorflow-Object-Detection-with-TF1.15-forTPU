@@ -27,7 +27,7 @@ You have to create a virtual environnement with python 3.6 :
 When the environnement it's create, enter in :    
 `conda activate tf1`  or just `tf1` thanks to tge PYTHON PATH    
 Then, install Tensorflow 1.15 :     
-`pip uninstall tensorflow -y` 
+`pip uninstall tensorflow -y`    
 `pip install tensorflow-gpu==1.15` 
 If you work on a CPU :   
 `pip install tensorflow==1.15`    
