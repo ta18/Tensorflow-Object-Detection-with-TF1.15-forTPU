@@ -35,7 +35,8 @@ If you work on a CPU :
 Your environnement it's ready ! 
 
 ## 3. Go on your virtual environnement on a new shell :   
-`cd home/jlc/Bureau/tod_tf1` enter the path of your tod_tf1 folder 
+Open a new shell and go here : 
+`cd home/jlc/Bureau/tod_tf1` enter the path of your tod_tf1 folder    
 `tf1` enter on the environnement 
 Open the notebook *Retrain SSD mobilnet for object detection.ipynb* with jupyter notebook :   
 `jupyter notebook`  
