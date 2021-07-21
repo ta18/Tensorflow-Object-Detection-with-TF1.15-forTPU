@@ -12,7 +12,7 @@ TensorFlow training scripts to perform transfer-learning on a quantization-aware
 
 
 ## 1. Clone the repository :
-In a shell download the *tod_tf1* repository on your computer (I recommande you to clone the repository in your home directory)   
+In a shell download the *tod_tf1* repository on your computer (I recommande you to clone the repository in your home directory $HOME)   
 `git clone https://github.com/ta18/tod_tf1`
 
 And create the PYTHON PATH :   
