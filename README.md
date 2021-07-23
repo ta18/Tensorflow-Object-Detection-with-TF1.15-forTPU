@@ -23,10 +23,12 @@ In a shell download the *tod_tf1* repository on your computer (I recommande you 
 And create the PYTHON PATH :   
 `nano ~/.bashrc`  
 Add this line in the end :   
-`export TOD_ROOT="$HOME/tod_tf1"     
+```
+export TOD_ROOT="$HOME/tod_tf1"     
 export PYTHONPATH=$TOD_ROOT/models:$TOD_ROOT/models/research:$TOD_ROOT/models/research/slim:$PYTHONPATH  
-alias tf1="conda activate tf1"`  
-You have to change the TOD_ROOT with your own path (it's the place that you have clone the repository) and source your the basrc :    
+alias tf1="conda activate tf1"
+```  
+You have to change the TOD_ROOT with your own path (normally it's you home directory $HOME) and source the basrc :    
 `source ~/.bashrc`
 
 ### 2. Create the virtual environnement :   
