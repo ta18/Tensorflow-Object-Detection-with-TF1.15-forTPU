@@ -3,12 +3,13 @@
 
 # Tensorflow-Object-Detection-with-TF1.15-forTPU
 
-  ![objectDetection](img/imageDetection.png)     
+![objectDetection](img/imageDetection.png)     
 
 This tutorial is a TensorFlow training scripts that perform transfer-learning on a quantization-aware object detection model and then convert it for compatibility with the Edge TPU. Specifically, this tutorial shows you how to retrain a MobileNet V1 SSD model with your own dataset, using TensorFlow 1.15.
 For compatibility with the Edge TPU, you must use either quantization-aware training (recommended) or full integer post-training quantization. In Tensorflow 2, there are no quantized model so you must quantify the model after the training. That's why we decided to train a quantized network on tensorflow 1. 
 You cannot train a model directly with TensorFlow Lite; instead you must convert your model from a TensorFlow file (such as a .pb file) to a TensorFlow Lite file (a .tflite file), using the TensorFlow Lite converter.
-After you train and convert your model to TensorFlow Lite (with quantization), the final step is to compile it with the Edge TPU Compiler.
+After you train and convert your model to TensorFlow Lite (with quantization), the final step is to compile it with the Edge TPU Compiler.    
+
 ![stategie](img/compile-workflow.png)     
 
 ## HardWare specifications 
