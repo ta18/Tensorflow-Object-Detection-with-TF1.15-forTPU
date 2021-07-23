@@ -3,15 +3,19 @@
 
 # Tensorflow-Object-Detection-with-TF1.15-forTPU
 
-  ![objectDetection](imageDetection.png)     
+  ![objectDetection](img/imageDetection.png)     
 
-TensorFlow training scripts to perform transfer-learning on a quantization-aware object detection model and then convert it for compatibility with the Edge TPU. Specifically, this tutorial shows you how to retrain a MobileNet V1 SSD model with your own dataset, using TensorFlow 1.15.
-We use a quantized model because you have to put a quantized model input to convert the model for EdgeTPU. 
+This tutorial is a TensorFlow training scripts that perform transfer-learning on a quantization-aware object detection model and then convert it for compatibility with the Edge TPU. Specifically, this tutorial shows you how to retrain a MobileNet V1 SSD model with your own dataset, using TensorFlow 1.15.
+For compatibility with the Edge TPU, you must use either quantization-aware training (recommended) or full integer post-training quantization. In Tensorflow 2, there are no quantized model so you must quantify the model after the training. That's why we decided to train a quantized network on tensorflow 1. 
+You cannot train a model directly with TensorFlow Lite; instead you must convert your model from a TensorFlow file (such as a .pb file) to a TensorFlow Lite file (a .tflite file), using the TensorFlow Lite converter.
+After you train and convert your model to TensorFlow Lite (with quantization), the final step is to compile it with the Edge TPU Compiler.
+![stategie](img/compile-workflow.png)     
+
 ## HardWare specifications 
 
 
-
-## 1. Clone the repository :
+## Tutorial 
+### 1. Clone the repository :
 In a shell download the *tod_tf1* repository on your computer (I recommande you to clone the repository in your home directory $HOME)   
 `git clone https://github.com/ta18/tod_tf1`
 
@@ -24,7 +28,7 @@ alias tf1="conda activate tf1"`
 You have to change the TOD_ROOT with your own path (it's the place that you have clone the repository) and source your the basrc :    
 `source ~/.bashrc`
 
-## 2. Create the virtual environnement :   
+### 2. Create the virtual environnement :   
 You have to create a virtual environnement with python 3.6 :
 `conda create -n tf1 python=3.6`  
 When the environnement it's create, enter in :    
@@ -37,7 +41,7 @@ If you work on a CPU :
 
 Your environnement it's ready ! 
 
-## 3. Go on your virtual environnement on a new shell :   
+### 3. Go on your virtual environnement on a new shell :   
 Open a new shell and go here : 
 `cd ~/tod_tf1` enter the path of your tod_tf1 folder    
 
